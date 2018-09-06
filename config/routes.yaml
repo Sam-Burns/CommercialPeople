@@ -1,3 +1,24 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+# TEAM
+
+team-list:
+    path: /team/list
+    controller: App\Controller\TeamController::listAction
+    methods: [GET]
+
+team-update:
+    path: /team/{id}
+    controller: App\Controller\TeamController::updateAction
+    methods: [PUT]
+
+team-create:
+    path: /team
+    controller: App\Controller\TeamController::createAction
+    methods: [POST]
+
+
+# LEAGUE
+
+league-delete:
+    path: /league/{id}
+    controller: App\Controller\LeagueController::deleteAction
+    methods: [DELETE]

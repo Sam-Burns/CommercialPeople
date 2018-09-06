@@ -7,3 +7,7 @@
 ###< symfony/framework-bundle ###
 
 data/app.db
+
+###> phpunit/phpunit ###
+/phpunit.xml
+###< phpunit/phpunit ###
