@@ -48,8 +48,6 @@ class TeamControllerTest extends TestCase
             ]
         ];
 
-
-
         $this->assertEquals(json_decode($response->getContent(), true), $expectedResult);
     }
 }
